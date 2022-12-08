@@ -303,11 +303,27 @@ const eventsPerMonth = {
       description: 'DB Schema für Übungseinheiten, Courses, Messaging API | Kick-Off Web-Front-End',
     },
     {
+      name: 'PowerUp: Abteilungen und Mandantenfähigkeit',
+      company: 'webhub'
+    },
+    {
       name: '🤝 My7steps App - DiGA 🚀 ',
       client: 'Ipso Healthcare GmbH',
       company: 'curahub',
       description: 'Table of all processed data according to § 2 Abs. 1 Nr. 21a DiGAV & ISO Post Processing & Testing of Nima -> FAIL'
     },
+    {
+      name: '🧑🏻‍💼 Rolls Royce Germany - PO und Spec für Toolbox ✨',
+      client: 'Rolls Royce Germany GmbH',
+      company: 'Curamatik',
+      humans: ["Stephen"]
+    },
+    {
+      name: '🧑🏻‍💼 EDBTL (Evangelischer Diakonissenstift Berlin Teltow Lenin) - IT-Leistungsverzeichnis ✨',
+      company: 'Curamatik',
+      description: 'Inventur! Die IT-Abteilung möchte wissen, was sie so an IT haben. Die ganze Sache gestaltet sich ... schwierig. :)',
+      humans: ["Sebastian", "Andreas"]
+    }
 
   ],
   Oktober:[
