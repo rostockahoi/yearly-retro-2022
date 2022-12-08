@@ -1,13 +1,13 @@
 <script setup>
-import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue';
+import {Popover, PopoverButton, PopoverPanel} from '@headlessui/vue';
 
-const props = defineProps(['event']);
+const props = defineProps(['event', 'side']);
 </script>
 
 <template>
   <Popover class="relative">
     <PopoverButton
-      class="
+        class="
         whitespace-nowrap
         bg-slate-900 bg-[#0E1526]
         hover:bg-[#090E1A]
@@ -19,16 +19,14 @@ const props = defineProps(['event']);
         md:max-w-[320px]
         xl:max-w-[400px]
       "
-      :title="event.name"
+        :title="event.name"
     >
       {{ event.name }}
     </PopoverButton>
 
     <PopoverPanel
-      class="
+        class="
         absolute
-        -translate-x-1/2
-        left-1/2
         z-10
         border border-slate-700
         drop-shadow-2xl
@@ -38,12 +36,21 @@ const props = defineProps(['event']);
         p-6
         mt-2
         w-screen
-        max-w-sm
+        max-w-2xl
+        lg:max-w-3xl
+        xl:max-w-4xl
         text-sm
+        max-h-[600px]
+        overflow-y-auto
       "
+        :class="{
+          'left-0 xl:-left-8': side === 'left',
+          'right-0 xl:-right-8': side === 'right',
+          'left-1/2': side === 'middle',
+        }"
     >
       <div
-        class="
+          class="
           absolute
           -top-px
           left-20
@@ -55,7 +62,7 @@ const props = defineProps(['event']);
           to-sky-300/0
         "
       ></div>
-      <dl class="space-y-2">
+      <dl class="space-y-2 mb-4">
         <div v-if="event.description">
           <dt class="font-bold text-xs text-slate-600">What?</dt>
           <dd class="text-slate-400">{{ event.description }}</dd>
@@ -78,15 +85,21 @@ const props = defineProps(['event']);
           <dt class="font-bold text-xs text-slate-600">Where?</dt>
           <dd class="text-slate-400">
             <a
-              :href="event.link"
-              class="text-indigo-600 hover:underline active:text-indigo-500"
-              >Link to Project</a
-            >
+                target="_blank"
+                :href="event.link"
+                class="text-indigo-600 hover:underline active:text-indigo-500"
+            >Link to Project</a>
           </dd>
         </div>
       </dl>
+
+      <div>
+        <img src="/img/obi-machbar-1.png" :alt="event.name">
+        <img src="/img/obi-machbar-1.png" :alt="event.name">
+      </div>
+
       <div
-        class="
+          class="
           absolute
           -bottom-px
           left-11
