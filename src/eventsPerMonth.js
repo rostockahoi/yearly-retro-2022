@@ -5,7 +5,7 @@ const eventsPerMonth = {
             client: 'Fork Unstable Media',
             company: 'webhub',
             humans: ['Johannes', 'Marten'],
-            description: '',
+            description: 'The client asked us to provide support in implementing the Craft information architecture (Marten) and an integration plugin for the Tito ticket API (Johannes).',
             images: [
                 '/img/obi-machbar-1.png',
             ],
@@ -22,6 +22,7 @@ const eventsPerMonth = {
             company: 'Curamatik',
             humans: ['Stephen', 'Oleksii'],
             timeSpent: 222,
+            link: 'https://play.google.com/store/apps/details?id=de.aok.bv.kopra.schwanger&pli=1',
         },
         {
             name: '🤝 My7steps App',
@@ -31,7 +32,7 @@ const eventsPerMonth = {
             humans: ['Sebastian', 'Johannes', 'Niklas'],
             description:
                 'Prepare Re-Design and Unified Registration, Kick-Off Informationssicherheitsmanagementsystem (! ISMS) Implementation 🛡️',
-            link: '',
+            link: 'https://diga.my7steps.org/',
             images: [
                 '/img/my7steps-1.png',
                 '/img/my7steps-2.png',
@@ -44,6 +45,7 @@ const eventsPerMonth = {
         {
             name: 'CDR (Corporate Digital Responsibility)',
             humans: ['Johannes', 'Marten'],
+            timeSpent: 30,
             description: 'Publication platform for Corporate Digital Responsibility. Used by the companies ING Diba, Allianz, Weleda, BARMER,Otto, Telekom, Zalando, Telefonica.',
             client:
                 'Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz',
@@ -76,8 +78,7 @@ const eventsPerMonth = {
             humans: ['Sebastian', 'Johannes', 'Niklas', 'Marten'],
             description:
                 '2FA, Data Portability, Redesign, Unified Registration, Talk-Integration, Counselor Availability | SAMD-Release im neuen Design 🚀',
-            link: '',
-            timeSpent: 413,
+            link: 'https://diga.my7steps.org/',
             images: [
                 '/img/my7steps-1.png',
                 '/img/my7steps-2.png',
@@ -87,6 +88,7 @@ const eventsPerMonth = {
         },
         {
             name: 'AOK Schwanger',
+            link: 'https://play.google.com/store/apps/details?id=de.aok.bv.kopra.schwanger&pli=1',
             client: 'AOK Nordost - Die Gesundheitskasse',
             company: 'Curamatik',
             description:
@@ -128,8 +130,7 @@ const eventsPerMonth = {
             humans: ['Sebastian', 'Johannes', 'Niklas', 'Marten', 'Stephen'],
             description:
                 'Neuer Client-Counselor-Matching-Algorithmus, Super-Counselors 💪 | Stephen lernt den Freigabeprozess kennen und lieben ❤️‍🩹',
-            link: '',
-            timeSpent: 90,
+            link: 'https://diga.my7steps.org/',
             images: [
                 '/img/my7steps-1.png',
                 '/img/my7steps-2.png',
@@ -142,6 +143,7 @@ const eventsPerMonth = {
             name: 'plau-handball.de',
             client: 'Plauer SV',
             company: 'webhub',
+            timeSpent: 40,
             charity: true,
             humans: ['Johannes'],
             images: [
@@ -158,6 +160,7 @@ const eventsPerMonth = {
         },
         {
             name: 'AOK Schwanger',
+            link: 'https://play.google.com/store/apps/details?id=de.aok.bv.kopra.schwanger&pli=1',
             client: 'AOK Nordost - Die Gesundheitskasse',
             company: 'Curamatik',
             description:
@@ -195,6 +198,7 @@ const eventsPerMonth = {
             description: 'Our house and yard photographer went among the hobby property owners and needed a website for his rental.',
             company: 'webhub',
             humans: ['Marten', 'Niklas'],
+            timeSpent: 48,
             images: [
                 '/img/ueber-rostock-1.png',
             ],
@@ -214,6 +218,7 @@ const eventsPerMonth = {
         },
         {
             name: 'psz-rostock.de',
+            timeSpent: 46,
             company: 'webhub',
             charity: true,
             humans: ['Marten', 'Niklas'],
@@ -231,6 +236,7 @@ const eventsPerMonth = {
         },
         {
             name: 'AOK Schwanger',
+            link: 'https://play.google.com/store/apps/details?id=de.aok.bv.kopra.schwanger&pli=1',
             client: 'AOK Nordost - Die Gesundheitskasse',
             company: 'Curamatik',
             description:
@@ -245,8 +251,7 @@ const eventsPerMonth = {
             company: 'curahub',
             humans: ['Sebastian', 'Johannes', 'Niklas', 'Marten', 'Stephen'],
             description: '????',
-            link: '',
-            timeSpent: 60,
+            link: 'https://diga.my7steps.org/',
             images: [
                 '/img/my7steps-1.png',
                 '/img/my7steps-2.png',
@@ -318,7 +323,7 @@ const eventsPerMonth = {
             company: 'curahub',
             description:
                 'Release v1.1. 🚀🚀🚀 &&& Sebastian back from parental leave --> Crunch Time for ISMS implementation starts here',
-            link: 'samd.my7steps.org',
+            link: 'https://samd.my7steps.org',
             images: [
                 '/img/my7steps-1.png',
                 '/img/my7steps-2.png',
@@ -355,18 +360,27 @@ const eventsPerMonth = {
             description: 'Roles und Permissions, Deployment Pipelines, Courses',
         },
         {
-            name: 'CDR (Corporate Digital Responsibility)',
+            name: 'CDR Cyber-Attack 😱',
             company: 'webhub',
-            description: 'Cyber-Attack 😱',
+            humans: ['Johannes'],
+            timeSpent: 12,
+            description: 'Oh boy, that was a close one. The client just got renamed to BMUV, which contains "Nuclear security" in its name and then the attack: SQL Injection via POST endpoints on the Craft site. Everything went well.',
         },
         {
             name: 'emodrive.de 🔌🚘',
             company: 'webhub',
+            timeSpent: 24,
+            humans: ['Marten'],
         },
         {
             name: 'kampf-der-doerfer.de 🐉🚣',
             company: 'webhub',
-            description: '(gemeinnützig)',
+            charity: true,
+            humans: ['Marten', 'Marius', 'Johannes'],
+            images: [
+                '/img/kdd-1.png',
+            ],
+            description: 'Johannes participated in the "Kampf der Dörfer" and didnt win the 1st place 🥇, but he won the 2nd place 🥈. Anyways, he is a winner in our hearts ❤️. We created a website for the village club Papendorf that hosts the event, which is a dragon boat race.',
         },
         {
             name: 'Check4U',
@@ -381,14 +395,33 @@ const eventsPerMonth = {
             name: 'NEBoD (New European Bauhaus on the Danube)',
             client: 'Stiftung Hochschule für Gestaltung Ulm',
             company: 'webhub',
+            humans: ['Niklas'],
+            timeSpent: 94,
+            description: 'In the summer of 2021 the European Danube Academy and the HfG Ulm Foundation start joining forces to pursue the targets of the New European Bauhaus on the Danube.',
+            images: [
+                '/img/nebod-1.png',
+                '/img/nebod-2.png',
+                '/img/nebod-3.png',
+            ],
         },
         {
-            name: 'PowerUp: Urlaubs- und Personalplaner',
-            client: 'Own Product?',
+            name: 'PowerUp: Absence and Employee Planner',
+            description: 'Our time tracking tool for craftsman is extended by absence, vacation and employee planner.',
+            client: 'HTL, Kettner',
+            timeSpent: 168,
+            humans: ['Johannes', 'Marten'],
             company: 'webhub',
+            images: [
+                '/img/powerup-1.png',
+                '/img/powerup-2.png',
+                '/img/powerup-3.png',
+            ],
         },
         {
             name: 'Prof. Schumann: Craft x Hubspot-Integration',
+            timeSpent: 48,
+            description: 'Not as fun as it sounds. But the people are nice, well – most of them.',
+            humans: ['Johannes', 'Marten', 'Niklas'],
             company: 'webhub',
         },
         {
@@ -404,8 +437,32 @@ const eventsPerMonth = {
     ],
     September: [
         {
+            name: 'Marius starts his apprenticeship',
+            company: 'webhub',
+            humans: ['Marius'],
+            description: 'We welcome Marius as new webhub member!!!'
+        },
+        {
+            name: 'code.talks Conference in Hamburg',
+            humans: ['Johannes', 'Marten', 'Niklas', 'Marius'],
+            company: 'webhub',
+            description: '🎤🎤🎤 - 2 days of talks, workshops and networking with world-class sushi 🍣 and beer 🍺 and a all-inclusive aftershow party in the Edelfettwerk Hamburg',
+            images: [
+                '/img/hh-1.png',
+                '/img/hh-2.png',
+                '/img/hh-3.png',
+                '/img/hh-4.png',
+                '/img/hh-5.png',
+                '/img/hh-6.png',
+                '/img/hh-7.png',
+            ],
+        },
+        {
             name: 'HFG Cyber-Attack 😱',
-            company: 'webhub'
+            company: 'webhub',
+            humans: ['Johannes'],
+            timeSpent: 8,
+            description: 'Holy shit this is the second attack in 2 months. We are not amused. This is one of our Craft sites under attack. It is the same attack like the previous: SQL Injection via POST endpoints.',
         },
         {
             name: 'AOK Schwanger v7.0',
@@ -430,6 +487,7 @@ const eventsPerMonth = {
             name: '🤝 My7steps App - DiGA 🚀 ',
             client: 'Ipso Healthcare GmbH',
             company: 'curahub',
+            link: 'https://diga.my7steps.org/',
             description: 'Table of all processed data according to § 2 Abs. 1 Nr. 21a DiGAV & ISO Post Processing & Testing of Nima -> FAIL',
             images: [
                 '/img/my7steps-1.png',
@@ -446,7 +504,7 @@ const eventsPerMonth = {
             client: 'Ipso Healthcare GmbH',
             company: 'curahub',
             description: 'Release der DiGA-Version von My7steps App',
-            link: 'diga.my7steps.org',
+            link: 'https://diga.my7steps.org/',
             images: [
                 '/img/my7steps-1.png',
                 '/img/my7steps-2.png',
@@ -456,7 +514,16 @@ const eventsPerMonth = {
         },
         {
             name: 'heynaht.de 🧵🪡',
-            company: 'webhub'
+            company: 'webhub',
+            timeSpent: 111,
+            client: 'heynaht GmbH',
+            description: 'Marten\'s old friend got a brand new website for his sewing business that goes 🚀',
+            humans: ['Niklas', 'Marius', 'Marten'],
+            images: [
+                '/img/heynaht-1.png',
+                '/img/heynaht-2.png',
+                '/img/heynaht-3.png',
+            ],
         },
         {
             name: '🤝 M7S --> Divide & Conquer',
@@ -465,7 +532,14 @@ const eventsPerMonth = {
         },
         {
             name: 'PowerUp - erster Sale bei Metallbau Kettner 🚀🥂',
-            company: 'webhub'
+            company: 'webhub',
+            client: 'Kettner',
+            humans: ['Johannes', 'Marten'],
+            images: [
+                '/img/powerup-1.png',
+                '/img/powerup-2.png',
+                '/img/powerup-3.png',
+            ],
         },
         {
             name: '🤝 VHS Lese-Trainer',
@@ -483,9 +557,25 @@ const eventsPerMonth = {
     ],
     November: [
         {
+            name: '🥾 Hiking Day 🥾',
+            company: 'curahub',
+            description: 'Johannes, Sebastian and Marten spent a day alone in the woods in Müritz Nationalpark.',
+            humans: ['Johannes', 'Sebastian', 'Marten'],
+            timeSpent: 14,
+            images: [
+                '/img/hike-1.jpeg',
+                '/img/hike-2.jpeg',
+                '/img/hike-3.jpeg',
+                '/img/hike-4.jpeg',
+            ]
+        },
+        {
             name: 'BVMW Relaunch 🚀',
             client: 'Fork Unstable Media',
+            description: 'Bundesverband mittelständische Wirtschaft',
+            humans: ['Johannes'],
             company: 'webhub',
+            timeSpent: 70,
             images: [
                 '/img/bvmw-1.png',
                 '/img/bvmw-2.png',
@@ -517,17 +607,19 @@ const eventsPerMonth = {
             name: '🤝 saba',
             client: 'Ipso gGmbH',
             company: 'curahub',
+            timeSpent: 118,
+            images: [
+                '/img/saba-1.png',
+                '/img/saba-2.png',
+                '/img/saba-3.png',
+            ],
             description: 'ReDesign begonnen, WS mit Kunden zu saba und TALk-Reimplmentierung'
         },
         {
             name: 'tedom.de',
             company: 'webhub',
+            timeSpent: 90,
             client: 'TEDOM Systems & Solutions GmbH'
-        },
-        {
-            name: 'Relaunch bvmw.de',
-            company: 'webhub',
-            description: 'Bundesverband mittelständische Wirtschaft, Fork Unstbale Media'
         }
     ],
     December: [
@@ -548,11 +640,11 @@ const eventsPerMonth = {
             name: '🤝 saba',
             client: 'Ipso gGmbH',
             company: 'curahub',
+            timeSpent: 118,
             images: [
-                '/img/vhs-1.png',
-                '/img/vhs-2.png',
-                '/img/vhs-3.png',
-                '/img/vhs-4.png',
+                '/img/saba-1.png',
+                '/img/saba-2.png',
+                '/img/saba-3.png',
             ],
             description: 'Fork erstellt, Designs nach StoryBook ausgelagert'
         },
@@ -561,6 +653,7 @@ const eventsPerMonth = {
             timeSpent: 1079,
             client: 'Ipso Healthcare GmbH',
             company: 'curahub',
+            link: 'https://diga.my7steps.org/',
             images: [
                 '/img/my7steps-1.png',
                 '/img/my7steps-2.png',
@@ -573,21 +666,30 @@ const eventsPerMonth = {
             name: '🤰 AOK Schwanger 🤰',
             client: 'AOK Nordost - Die Gesundheitskasse',
             company: 'Curamatik',
+            timeSpent: 1053,
+            images: [
+                '/img/schwanger-1.png',
+                '/img/schwanger-2.png',
+            ],
             description: 'Erweiterung der Entwicklungsinfos - das größte Content-Update seit Jahren'
         },
         {
             name: 'beerride.de',
             client: 'MARTONOS!',
+            link: 'beerride.de',
             company: 'webhub',
+            humans: ['Marten', 'Niklas'],
             images: [
                 '/img/beer-1.png',
                 '/img/beer-2.png',
             ],
-            description: 'Mit dem Veloziped zur Krugwirtschaft! 🍻🚴‍♂️'
+            description: 'Mit dem Veloziped zur Krugwirtschaft! 🍻🚴'
         },
         {
             name: 'CDR (Corporate Digital Responsibility)',
             company: 'webhub',
+            link: 'cdr-initiative.de',
+            humans: ['Johannes', 'Charles'],
             images: [
                 '/img/cdr-1.png',
             ],
@@ -596,6 +698,7 @@ const eventsPerMonth = {
         {
             name: 'Charles sets up his new electric table!',
             company: 'webhub',
+            humans: ['Charles "Jephte" Koko'],
             description: 'We welcome Charles as new webhub member!!!'
         }
     ]

@@ -37,8 +37,8 @@ const props = defineProps(['event', 'side']);
         mt-2
         w-screen
         max-w-2xl
-        lg:max-w-3xl
-        xl:max-w-4xl
+        lg:max-w-4xl
+        xl:max-w-6xl
         text-sm
       "
         :class="{
@@ -61,7 +61,7 @@ const props = defineProps(['event', 'side']);
         "
       ></div>
 
-      <div class="max-h-[600px] px-6 overflow-y-auto">
+      <div class="max-h-[600px] lg:max-h-[60vh] xl:max-h-[80vh] px-6 overflow-y-auto">
 
         <dl class="space-y-2">
           <div class="flex">
