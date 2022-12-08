@@ -312,9 +312,13 @@ const eventsPerMonth = {
     June: [
         {
             name: 'INDICA',
-            client: 'Hoschschule Merseburg',
+            client: 'HS Merseburg',
             company: 'webhub',
-            description: '🚬😁',
+            humans: ['Johannes'],
+            images: [
+                '/img/indica-1.png',
+            ],
+            description: '🚬😁 The people over there are really nice. They like to smoke weed. We like to build software. So we built some software for them. Well, actually we did not build it yet. But we already got paid. So we\'ll see. 😃',
         },
         {
             name: '🤝 My7steps App',
@@ -440,6 +444,9 @@ const eventsPerMonth = {
             name: 'Marius starts his apprenticeship',
             company: 'webhub',
             humans: ['Marius'],
+            images: [
+                '/img/hh-1.jpeg',
+            ],
             description: 'We welcome Marius as new webhub member!!!'
         },
         {
@@ -448,13 +455,13 @@ const eventsPerMonth = {
             company: 'webhub',
             description: '🎤🎤🎤 - 2 days of talks, workshops and networking with world-class sushi 🍣 and beer 🍺 and a all-inclusive aftershow party in the Edelfettwerk Hamburg',
             images: [
-                '/img/hh-1.png',
-                '/img/hh-2.png',
-                '/img/hh-3.png',
-                '/img/hh-4.png',
-                '/img/hh-5.png',
-                '/img/hh-6.png',
-                '/img/hh-7.png',
+                '/img/hh-1.jpeg',
+                '/img/hh-2.jpeg',
+                '/img/hh-3.jpeg',
+                '/img/hh-4.jpeg',
+                '/img/hh-5.jpeg',
+                '/img/hh-6.jpeg',
+                '/img/hh-7.jpeg',
             ],
         },
         {
@@ -496,7 +503,24 @@ const eventsPerMonth = {
                 '/img/my7steps-4.png',
             ],
         },
-
+        {
+            name: '🧑🏻‍💼 Rolls Royce Germany - PO und Spec für Toolbox ✨',
+            client: 'Rolls Royce Germany GmbH',
+            company: 'Curamatik',
+            humans: ["Stephen"],
+            images: [
+                '/img/rolls-1.png',
+            ]
+        },
+        {
+            name: '🧑🏻‍💼 EDBTL (Evangelischer Diakonissenstift Berlin Teltow Lenin) - IT-Leistungsverzeichnis ✨',
+            company: 'Curamatik',
+            images: [
+                '/img/edltb-1.png',
+            ],
+            description: 'Inventur! Die IT-Abteilung möchte wissen, was sie so an IT haben. Die ganze Sache gestaltet sich ... schwierig. :)',
+            humans: ["Sebastian", "Andreas"]
+        }
     ],
     Oktober: [
         {
