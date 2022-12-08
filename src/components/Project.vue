@@ -33,20 +33,18 @@ const props = defineProps(['event', 'side']);
         shadow-lg
         bg-slate-900
         rounded-lg
-        p-6
+        py-6
         mt-2
         w-screen
         max-w-2xl
         lg:max-w-3xl
         xl:max-w-4xl
         text-sm
-        max-h-[600px]
-        overflow-y-auto
       "
         :class="{
           'left-0 xl:-left-8': side === 'left',
           'right-0 xl:-right-8': side === 'right',
-          'left-1/2': side === 'middle',
+          'left-1/2 -translate-x-1/2': side === 'middle',
         }"
     >
       <div
@@ -62,6 +60,9 @@ const props = defineProps(['event', 'side']);
           to-sky-300/0
         "
       ></div>
+
+      <div class="max-h-[600px] px-6 overflow-y-auto">
+
       <dl class="space-y-2 mb-4">
         <div v-if="event.description">
           <dt class="font-bold text-xs text-slate-600">What?</dt>
@@ -93,11 +94,12 @@ const props = defineProps(['event', 'side']);
         </div>
       </dl>
 
-      <div>
+      <div class="space-y-4">
         <img src="/img/obi-machbar-1.png" :alt="event.name">
         <img src="/img/obi-machbar-1.png" :alt="event.name">
       </div>
 
+      </div>
       <div
           class="
           absolute
