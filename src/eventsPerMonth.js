@@ -440,6 +440,17 @@ const eventsPerMonth = {
   ],
   August: [
     {
+      name: "👨‍🎓 AEVO - trainer aptitude examination",
+      client: "webhub",
+      company: "webhub",
+      humans:["Marten"],
+      timeSpent: 100,
+      description:'Marten started the path of becoming a trainer for trainees in may and finished it on time in august. He is now a certified trainer for trainees and should know how to handle trainees. 🎉🎉🎉',
+      images: [
+        '/img/aevo.jpg',
+      ]
+    },
+    {
       name: 'NEBoD (New European Bauhaus on the Danube)',
       client: 'Stiftung Hochschule für Gestaltung Ulm',
       company: 'webhub',
