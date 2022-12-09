@@ -287,6 +287,7 @@ const eventsPerMonth = {
             images: [
                 '/img/wiro-1.png',
             ],
+            link: 'wfb2021.wiro.de',
             humans: ['Marten', 'Niklas'],
             description: 'WIRO Wohnfühlbericht',
         },
