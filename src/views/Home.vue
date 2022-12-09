@@ -194,7 +194,7 @@ const upcomingTasks = [
     <div class="relative flex flex-col flex-wrap items-center p-8" style="cursor: auto;">
       <span
         class="absolute px-3 py-1 text-xs font-medium text-black rounded-full bg-gradient-to-r from-blue-500 via-sky-300 to-green-400 -top-3 ">Inge
-        will join us in a few minutes for a short Ipso gGmbH intro.</span>
+        will try join us for a short Ipso gGmbH intro, today. ETA: 17:00h!</span>
     </div>
 
     <div class="flex justify-center mt-64">
