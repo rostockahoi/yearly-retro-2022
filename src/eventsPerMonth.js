@@ -12,6 +12,17 @@ const eventsPerMonth = {
             link: 'https://obimachbar.de/',
         },
         {
+            name: 'das-kann-kunststoff.de',
+            link: 'das-kann-kunststoff.de',
+            humans: ['Niklas', 'Marten'],
+            client: 'ALPLA Kunststoffverarbeitung GmbH',
+            company: 'webhub',
+            images: [
+                '/img/alpla-1.png',
+                '/img/alpla-2.png',
+            ],
+        },
+        {
             name: 'AOK Schwanger v6.11',
             client: 'AOK Nordost - Die Gesundheitskasse',
             images: [
@@ -464,6 +475,7 @@ const eventsPerMonth = {
             company: 'webhub',
             humans: ['Niklas'],
             timeSpent: 94,
+            link: 'https://nebod.eu/',
             description: 'In the summer of 2021 the European Danube Academy and the HfG Ulm Foundation start joining forces to pursue the targets of the New European Bauhaus on the Danube.',
             images: [
                 '/img/nebod-1.png',
