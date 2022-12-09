@@ -252,7 +252,7 @@ const eventsPerMonth = {
             client: 'Ipso Healthcare GmbH',
             company: 'curahub',
             humans: ['Sebastian', 'Johannes', 'Niklas', 'Marten', 'Stephen'],
-            description: '????',
+            description: '',
             link: 'https://diga.my7steps.org/',
             images: [
                 '/img/my7steps-1.png',
@@ -602,6 +602,7 @@ const eventsPerMonth = {
             name: 'webhub Banner in Crossfit Sturmflut',
             description: 'We had some fun with the ideation of our first marketing item, provided by someone on Fiverr',
             humans: ["Niklas"],
+            company: 'webhub',
             images: [
                 '/img/crossfit-1.jpeg',
             ],
