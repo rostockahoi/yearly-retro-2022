@@ -284,6 +284,10 @@ const eventsPerMonth = {
             name: 'wfb2021.wiro.de',
             company: 'webhub',
             timeSpent: 167,
+            images: [
+                '/img/wiro-1.png',
+            ],
+            humans: ['Marten', 'Niklas'],
             description: 'WIRO Wohnfühlbericht',
         },
         {
