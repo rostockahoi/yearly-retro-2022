@@ -455,7 +455,6 @@ const eventsPerMonth = {
             company: 'webhub',
             description: '🎤🎤🎤 - 2 days of talks, workshops and networking with world-class sushi 🍣 and beer 🍺 and a all-inclusive aftershow party in the Edelfettwerk Hamburg',
             images: [
-                '/img/hh-1.jpeg',
                 '/img/hh-2.jpeg',
                 '/img/hh-3.jpeg',
                 '/img/hh-4.jpeg',
@@ -518,7 +517,7 @@ const eventsPerMonth = {
             images: [
                 '/img/edltb-1.png',
             ],
-            description: 'Inventur! Die IT-Abteilung möchte wissen, was sie so an IT haben. Die ganze Sache gestaltet sich ... schwierig. :)',
+            description: 'Inventory! The IT department wants to know what they have in IT. The whole thing is proving ... difficult. :)',
             humans: ["Sebastian", "Andreas"]
         }
     ],
@@ -527,7 +526,7 @@ const eventsPerMonth = {
             name: '🤝 My7steps App - DiGA 🚀 ',
             client: 'Ipso Healthcare GmbH',
             company: 'curahub',
-            description: 'Release der DiGA-Version von My7steps App',
+            description: 'Release of DiGA version of My7steps App',
             link: 'https://diga.my7steps.org/',
             images: [
                 '/img/my7steps-1.png',
@@ -552,7 +551,7 @@ const eventsPerMonth = {
         {
             name: '🤝 M7S --> Divide & Conquer',
             client: 'Ipso Healthcare GmbH & Ipso gGmbH',
-            description: 'Split von My7steps App in DiGA, SAMD und SABA'
+            description: 'Split of My7steps App in DiGA, SAMD and SABA'
         },
         {
             name: 'PowerUp - erster Sale bei Metallbau Kettner 🚀🥂',
@@ -596,7 +595,7 @@ const eventsPerMonth = {
         {
             name: 'BVMW Relaunch 🚀',
             client: 'Fork Unstable Media',
-            description: 'Bundesverband mittelständische Wirtschaft',
+            description: 'Bundesverband mittelständische Wirtschaft: Johannes steps in for the lead dev that is in parental leave.',
             humans: ['Johannes'],
             company: 'webhub',
             timeSpent: 70,
@@ -612,7 +611,7 @@ const eventsPerMonth = {
             images: [
                 '/img/giga-1.png',
             ],
-            description: 'DiGA-Zulassungsantrag gestellt 😱'
+            description: 'DiGA approval application submitted 😱'
         },
         {
             name: '🤝 VHS Lese-Trainer',
@@ -625,7 +624,7 @@ const eventsPerMonth = {
                 '/img/vhs-3.png',
                 '/img/vhs-4.png',
             ],
-            description: 'Ablauf in Übungseinheiten festgezurrt & Click-Prototyp erstellt, übergeben, diskutiert',
+            description: 'Process defined in exercise units & Click prototype created, handed over, discussed',
         },
         {
             name: '🤝 saba',
@@ -637,7 +636,7 @@ const eventsPerMonth = {
                 '/img/saba-2.png',
                 '/img/saba-3.png',
             ],
-            description: 'ReDesign begonnen, WS mit Kunden zu saba und TALk-Reimplmentierung'
+            description: 'Started redesign, workshop with client for SABA and the TALK rewrite'
         },
         {
             name: 'tedom.de',
@@ -722,6 +721,9 @@ const eventsPerMonth = {
         {
             name: 'Charles sets up his new electric table!',
             company: 'webhub',
+            images: [
+                '/img/charles-1.jpeg',
+            ],
             humans: ['Charles "Jephte" Koko'],
             description: 'We welcome Charles as new webhub member!!!'
         }
