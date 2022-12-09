@@ -11,7 +11,7 @@ const topProjects = [{name: 'VHS Lese-Trainer', timeSpent: 1386, company: "curah
 
 <template>
 
-  <h1 class="text-center text-5xl font-bold text-slate-400 py-32">Jahresrückblick 2022</h1>
+  <h1 class="text-center text-5xl font-bold text-slate-400 py-32">Yearly retro 2022</h1>
 
   <div class="flex justify-center mb-32">
     <img class="max-w-xl opacity-60" src="/img/santa-1.png" alt="">
